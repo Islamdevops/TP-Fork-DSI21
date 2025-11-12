@@ -16,43 +16,89 @@
     <!-- les autres membres ajouteront leurs noms ici -->
 </ul>
 <section class="grid-demo">
-  <h2>CSS Grid Example</h2>
+  <h2>Équipe TP Fork — 2025/2026</h2>
 
   <div class="grid">
-    <div class="card">Card 1</div>
-    <div class="card">Card 2</div>
-    <div class="card">Card 3</div>
-    <div class="card">Card 4</div>
+    <div class="member">
+      <img src="WhatsApp Image 2025-11-12 at 03.06.44.jpeg" alt="Islem">
+      <p>Islem Dridi</p>
+    </div>
+
+    <div class="member">
+      <img src="WhatsApp Image 2025-11-12 at 02.55.12.jpeg" alt="Eya">
+      <p>Eya Ben belgacem</p>
+    </div>
+
+    <div class="member">
+      <img src="WhatsApp Image 2025-11-12 at 03.01.33.jpeg" alt="Mahmoud">
+      <p>Mahmoud Saadaoui</p>
+    </div>
+
+    <div class="member">
+      <img src="WhatsApp Image 2025-11-12 at 03.04.46.jpeg" alt="Issrae">
+      <p>Issrae Werghemmi </p>
+    </div>
+
+    <div class="member">
+      <img src="WhatsApp Image 2025-11-12 at 02.54.42.jpeg" alt="Manar">
+      <p>Manar Dgachi</p>
+    </div>
+
+    <div class="member">
+      <img src="16e5ece4-0457-47e2-a747-0b636786d066.jpeg" alt="Zayneb Bellil">
+      <p>Zayneb Bellil</p>
+    </div>
   </div>
 </section>
 
 <style>
-  .grid-demo{
-    max-width:800px;
-    margin:40px auto;
-    font-family:sans-serif;
-    text-align:center;
+  .grid-demo {
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: sans-serif;
+    text-align: center;
   }
 
-  .grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-    gap:15px;
+  .grid-demo h2 {
+    color: #0ea5a4;
+    margin-bottom: 25px;
   }
 
-  .card{
-    background:#0ea5a4;
-    color:#fff;
-    padding:30px 10px;
-    border-radius:10px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
-    transition:transform .2s;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
   }
 
-  .card:hover{
-    transform:scale(1.05);
+  .member {
+    background: #0ea5a4;
+    color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    transition: transform 0.2s;
+  }
+
+  .member img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: 2px solid #fff;
+  }
+
+  .member:hover {
+    transform: scale(1.05);
+    background: #0c8f8d;
+  }
+
+  .member p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1rem;
   }
 </style>
+
 
 </body>
 </html>
